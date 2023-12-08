@@ -7,6 +7,12 @@ public class Principal {
 
 	public static void main(String[] args) {
 
+		// Victor: Ha hecho el paquete model y tambien del paquete controller ha hecho
+		// la clase Comodin_Descartes,
+		// ha empezado con la estructura de la clase principal
+
+		// Nota: He creado un model juego que sera donde se hara el juego en si llamando
+		// a las demas clases
 		int opcion, uno = 1, tam;
 		String nombre;
 		Juego juego;
