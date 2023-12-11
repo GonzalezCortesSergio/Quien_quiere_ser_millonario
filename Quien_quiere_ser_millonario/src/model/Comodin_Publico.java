@@ -2,13 +2,13 @@ package model;
 
 public class Comodin_Publico {
 	
-	private Boolean usado;
+	private boolean usado;
 	private int respuestaPublico1;
 	private int respuestaPublico2;
 	private int respuestaPublico3;
 	private int respuestaPublico4;
 	
-	public Comodin_Publico(Boolean usado, int respuestaPublico1, int respuestaPublico2, int respuestaPublico3,
+	public Comodin_Publico(boolean usado, int respuestaPublico1, int respuestaPublico2, int respuestaPublico3,
 			int respuestaPublico4) {
 		this.usado = usado;
 		this.respuestaPublico1 = respuestaPublico1;
@@ -16,12 +16,15 @@ public class Comodin_Publico {
 		this.respuestaPublico3 = respuestaPublico3;
 		this.respuestaPublico4 = respuestaPublico4;
 	}
-	public Boolean getUsado() {
+	
+	public boolean isUsado() {
 		return usado;
 	}
-	public void setUsado(Boolean usado) {
+
+	public void setUsado(boolean usado) {
 		this.usado = usado;
 	}
+
 	public int getRespuestaPublico1() {
 		return respuestaPublico1;
 	}
@@ -46,6 +49,7 @@ public class Comodin_Publico {
 	public void setRespuestaPublico4(int respuestaPublico4) {
 		this.respuestaPublico4 = respuestaPublico4;
 	}
+	
 	@Override
 	public String toString() {
 		return "Comodin_Publico [usado=" + usado + ", respuestaPublico1=" + respuestaPublico1 + ", respuestaPublico2="

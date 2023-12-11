@@ -1,10 +1,12 @@
 package model;
 
 public class Jugador {
+	
 	private String nombre;
 	private Comodin_Descarte comodin_Descarte;
 	private Comodin_Llamada comodin_Llamada;
 	private Comodin_Publico comodin_Publico;
+	
 	public Jugador(String nombre, Comodin_Descarte comodin_Descarte, Comodin_Llamada comodin_Llamada,
 			Comodin_Publico comodin_Publico) {
 		this.nombre = nombre;

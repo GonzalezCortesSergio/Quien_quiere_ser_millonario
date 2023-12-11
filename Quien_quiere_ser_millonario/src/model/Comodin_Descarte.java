@@ -4,22 +4,24 @@ import java.util.Arrays;
 
 public class Comodin_Descarte {
 	
-	private Boolean usado;
+	private boolean usado;
 	private Respuesta []respuestaADescartar;
 	
-	public Comodin_Descarte(Boolean usado, Respuesta[] respuestaADescartar) {
+	public Comodin_Descarte(boolean usado, Respuesta[] respuestaADescartar) {
 		
 		this.usado = usado;
 		this.respuestaADescartar = respuestaADescartar;
 	}
-
-	public Boolean getUsado() {
+	
+	public boolean isUsado() {
 		return usado;
 	}
 
-	public void setUsado(Boolean usado) {
+
+	public void setUsado(boolean usado) {
 		this.usado = usado;
 	}
+
 
 	public Respuesta[] getRespuestaADescartar() {
 		return respuestaADescartar;

@@ -2,19 +2,22 @@ package model;
 
 public class Comodin_Llamada {
 	
-	private Boolean usado;
+	private boolean usado;
 	private Respuesta respuestaLlamada;
 	
-	public Comodin_Llamada(Boolean usado, Respuesta respuestaLlamada) {
+	public Comodin_Llamada(boolean usado, Respuesta respuestaLlamada) {
 		this.usado = usado;
 		this.respuestaLlamada = respuestaLlamada;
 	}
-	public Boolean getUsado() {
+	
+	public boolean isUsado() {
 		return usado;
 	}
-	public void setUsado(Boolean usado) {
+
+	public void setUsado(boolean usado) {
 		this.usado = usado;
 	}
+
 	public Respuesta getRespuestaLlamada() {
 		return respuestaLlamada;
 	}

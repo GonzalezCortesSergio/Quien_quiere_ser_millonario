@@ -3,9 +3,9 @@ package model;
 public class Respuesta {
 	
 	private String respuesta;
-	private Boolean correcto;
+	private boolean correcto;
 	
-	public Respuesta(String respuesta, Boolean correcto) {
+	public Respuesta(String respuesta, boolean correcto) {
 		this.respuesta = respuesta;
 		this.correcto = correcto;
 	}
@@ -17,18 +17,15 @@ public class Respuesta {
 		this.respuesta = respuesta;
 	}
 	
-	public Boolean isCorrecto() {
+	public boolean isCorrecto() {
 		return correcto;
 	}
 
-	public void setCorrecto(Boolean correcto) {
+	public void setCorrecto(boolean correcto) {
 		this.correcto = correcto;
 	}
 
-	public Boolean getCorrecto() {
-		return correcto;
-	}
-	
+
 	@Override
 	public String toString() {
 		return "Respuesta [respuesta=" + respuesta + ", correcto=" + correcto + "]";

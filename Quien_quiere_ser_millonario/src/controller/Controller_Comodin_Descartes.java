@@ -21,14 +21,14 @@ public class Controller_Comodin_Descartes {
 			}
 		}
 		// Llama al metodo de respuestas descartadas
-		respuestaADescartar = borraUnaAleatoria(respuestaCandidatas);
+		respuestaADescartar = borraUnAleatoria(respuestaCandidatas);
 		Comodin_Descarte comodin_Descarte = new Comodin_Descarte(true, respuestaADescartar);
 
 		return comodin_Descarte;
 	}
 
 	// Las n respuestas a descartar dentro de las candidatas
-	private Respuesta[] borraUnaAleatoria(Respuesta[] respuestaCandidatas) {
+	private Respuesta[] borraUnAleatoria(Respuesta[] respuestaCandidatas) {
 		int desde = 1;
 		int hasta = 3;
 		int tam = 2;
